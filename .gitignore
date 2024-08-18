@@ -1,0 +1,40 @@
+# Ignore virtual environment directories
+env/
+venv/
+
+# Ignore compiled files and logs
+target/
+logs/
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Ignore DBT compiled files and artifacts
+dbt_packages/
+dbt_modules/
+dbt_artifacts/
+manifest.json
+run_results.json
+catalog.json
+*.msgpack
+*.pickle
+
+# Ignore configuration files that contain sensitive information
+.env
+*.env
+*.yml  # If you have specific yml files to include, modify this.
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore test outputs and example files
+tests/
+example/
+
+# Ignore .DS_Store (macOS specific)
+.DS_Store
